@@ -8,35 +8,64 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Mosaiko Boost Editorial Design System */
+    --background: 30 15% 97%; /* Blanco cálido */
+    --foreground: 240 8% 8%; /* Negro mate suave */
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 30 15% 97%;
+    --card-foreground: 240 8% 8%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 30 15% 97%;
+    --popover-foreground: 240 8% 8%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 240 8% 8%; /* Negro mate principal */
+    --primary-foreground: 30 15% 97%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 18 55% 65%; /* Terracota */
+    --secondary-foreground: 30 15% 97%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 30 8% 90%;
+    --muted-foreground: 240 4% 45%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 45 85% 55%; /* Mostaza */
+    --accent-foreground: 240 8% 8%;
+
+    --terracota: 18 55% 65%;
+    --terracota-foreground: 30 15% 97%;
+
+    --mostaza: 45 85% 55%;
+    --mostaza-foreground: 240 8% 8%;
+
+    --azul-profundo: 210 65% 25%;
+    --azul-profundo-foreground: 30 15% 97%;
+
+    --verde-seco: 95 25% 45%;
+    --verde-seco-foreground: 30 15% 97%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 30 15% 97%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 30 8% 85%;
+    --input: 30 8% 90%;
+    --ring: 240 8% 8%;
 
-    --radius: 0.5rem;
+    --radius: 0.75rem;
+
+    /* Editorial gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--azul-profundo)) 100%);
+    --gradient-accent: linear-gradient(135deg, hsl(var(--terracota)) 0%, hsl(var(--mostaza)) 100%);
+    --gradient-subtle: linear-gradient(180deg, hsl(var(--background)) 0%, hsl(var(--muted)) 100%);
+
+    /* Editorial shadows */
+    --shadow-editorial: 0 4px 32px -8px hsl(var(--primary) / 0.1);
+    --shadow-hover: 0 8px 48px -12px hsl(var(--primary) / 0.15);
+    --shadow-glow: 0 0 32px hsl(var(--accent) / 0.2);
+
+    /* Animation easing */
+    --ease-editorial: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    --ease-smooth: cubic-bezier(0.4, 0, 0.2, 1);
+
+    --radius: 0.75rem;
 
     --sidebar-background: 0 0% 98%;
 
@@ -56,33 +85,46 @@ All colors MUST be HSL.
   }
 
   .dark {
-    --background: 222.2 84% 4.9%;
-    --foreground: 210 40% 98%;
+    --background: 240 8% 8%;
+    --foreground: 30 15% 97%;
 
-    --card: 222.2 84% 4.9%;
-    --card-foreground: 210 40% 98%;
+    --card: 240 8% 8%;
+    --card-foreground: 30 15% 97%;
 
-    --popover: 222.2 84% 4.9%;
-    --popover-foreground: 210 40% 98%;
+    --popover: 240 8% 8%;
+    --popover-foreground: 30 15% 97%;
 
-    --primary: 210 40% 98%;
-    --primary-foreground: 222.2 47.4% 11.2%;
+    --primary: 30 15% 97%;
+    --primary-foreground: 240 8% 8%;
 
-    --secondary: 217.2 32.6% 17.5%;
-    --secondary-foreground: 210 40% 98%;
+    --secondary: 18 55% 65%;
+    --secondary-foreground: 30 15% 97%;
 
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
+    --muted: 240 4% 15%;
+    --muted-foreground: 240 4% 60%;
 
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
+    --accent: 45 85% 55%;
+    --accent-foreground: 240 8% 8%;
+
+    --terracota: 18 55% 65%;
+    --terracota-foreground: 30 15% 97%;
+
+    --mostaza: 45 85% 55%;
+    --mostaza-foreground: 240 8% 8%;
+
+    --azul-profundo: 210 65% 35%;
+    --azul-profundo-foreground: 30 15% 97%;
+
+    --verde-seco: 95 25% 55%;
+    --verde-seco-foreground: 30 15% 97%;
 
     --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 30 15% 97%;
 
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
-    --ring: 212.7 26.8% 83.9%;
+    --border: 240 4% 20%;
+    --input: 240 4% 20%;
+    --ring: 45 85% 55%;
+
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;
@@ -101,5 +143,14 @@ All colors MUST be HSL.
 
   body {
     @apply bg-background text-foreground;
+    font-family: 'Inter', sans-serif;
+  }
+
+  .font-serif {
+    font-family: 'Playfair Display', serif;
+  }
+
+  .font-sans {
+    font-family: 'Inter', sans-serif;
   }
 }

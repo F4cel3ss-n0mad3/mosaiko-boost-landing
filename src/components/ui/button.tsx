@@ -18,6 +18,13 @@ const buttonVariants = cva(
           "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
+        // Editorial variants for Mosaiko Boost
+        terracota: "bg-terracota text-terracota-foreground hover:bg-terracota/90 shadow-editorial hover:shadow-hover transition-all duration-300",
+        mostaza: "bg-mostaza text-mostaza-foreground hover:bg-mostaza/90 shadow-editorial hover:shadow-hover transition-all duration-300",
+        "azul-profundo": "bg-azul-profundo text-azul-profundo-foreground hover:bg-azul-profundo/90 shadow-editorial hover:shadow-hover transition-all duration-300",
+        "verde-seco": "bg-verde-seco text-verde-seco-foreground hover:bg-verde-seco/90 shadow-editorial hover:shadow-hover transition-all duration-300",
+        hero: "bg-gradient-accent text-white hover:scale-105 shadow-glow transition-all duration-300 font-semibold",
+        editorial: "bg-primary text-primary-foreground hover:bg-primary/90 shadow-editorial hover:shadow-hover transition-all duration-300"
       },
       size: {
         default: "h-10 px-4 py-2",
