@@ -76,7 +76,7 @@ const Index = () => {
         
         <div className="relative z-10 container mx-auto px-4 text-center">
           <ScrollAnimation animation="fade-in-up">
-            <h1 className="font-serif text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
+            <h1 className="font-display text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
               Mosaiko Boost:
               <span className="block text-mostaza">El Impulso Inteligente</span>
               <span className="block text-3xl md:text-4xl font-normal">para tu Hotel</span>
@@ -112,7 +112,7 @@ const Index = () => {
       <section className="py-24 bg-gradient-subtle">
         <div className="container mx-auto px-4">
           <ScrollAnimation animation="fade-in" className="text-center mb-16">
-            <h2 className="font-serif text-4xl md:text-5xl font-bold text-primary mb-6">
+            <h2 className="font-display text-4xl md:text-5xl font-bold text-primary mb-6">
               No es una agencia tradicional.
               <span className="block text-terracota">Es tu nuevo equipo digital.</span>
             </h2>
@@ -157,7 +157,7 @@ const Index = () => {
       <section className="py-24 bg-background">
         <div className="container mx-auto px-4">
           <ScrollAnimation animation="fade-in" className="text-center mb-16">
-            <h2 className="font-serif text-4xl md:text-5xl font-bold text-primary mb-6">
+            <h2 className="font-display text-4xl md:text-5xl font-bold text-primary mb-6">
               Automatizamos <span className="text-mostaza">TODO</span>
               <span className="block">para que tu hotel funcione sin ti.</span>
             </h2>
@@ -196,7 +196,7 @@ const Index = () => {
       <section className="py-24 bg-gradient-subtle">
         <div className="container mx-auto px-4">
           <ScrollAnimation animation="fade-in" className="text-center mb-16">
-            <h2 className="font-serif text-4xl md:text-5xl font-bold text-primary mb-6">
+            <h2 className="font-display text-4xl md:text-5xl font-bold text-primary mb-6">
               Ideal para hoteles independientes,
               <span className="block text-terracota">sostenibles, creativos… como el tuyo.</span>
             </h2>
@@ -234,7 +234,7 @@ const Index = () => {
       <section className="py-24 bg-primary">
         <div className="container mx-auto px-4">
           <ScrollAnimation animation="fade-in" className="text-center mb-16">
-            <h2 className="font-serif text-4xl md:text-5xl font-bold text-white mb-6">
+            <h2 className="font-display text-4xl md:text-5xl font-bold text-white mb-6">
               ¿Qué puedes lograr con
               <span className="block text-mostaza">Mosaiko Boost?</span>
             </h2>
@@ -268,7 +268,7 @@ const Index = () => {
       <section className="py-24 bg-background">
         <div className="container mx-auto px-4">
           <ScrollAnimation animation="fade-in" className="text-center mb-16">
-            <h2 className="font-serif text-4xl md:text-5xl font-bold text-primary mb-6">
+            <h2 className="font-display text-4xl md:text-5xl font-bold text-primary mb-6">
               Fácil, rápido,
               <span className="block text-terracota">sin dolores de cabeza.</span>
             </h2>
@@ -305,7 +305,7 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <ScrollAnimation animation="fade-in">
-              <h2 className="font-serif text-4xl md:text-5xl font-bold text-white mb-6">
+              <h2 className="font-display text-4xl md:text-5xl font-bold text-white mb-6">
                 ¿Listo para darle un boost
                 <span className="block">a tu hotel?</span>
               </h2>
@@ -404,7 +404,7 @@ const Index = () => {
               <div className="w-8 h-8 bg-gradient-accent rounded-full flex items-center justify-center">
                 <Sparkles className="w-5 h-5 text-white" />
               </div>
-              <span className="text-2xl font-serif font-bold text-white">Mosaiko Boost</span>
+              <span className="text-2xl font-display font-bold text-white">Mosaiko Boost</span>
             </div>
             <p className="text-white/60 mb-4">
               Una unidad del Grupo Mosaiko - Medellín, Colombia

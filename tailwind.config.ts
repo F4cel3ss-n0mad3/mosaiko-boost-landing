@@ -19,7 +19,7 @@ export default {
 		},
 		extend: {
 			fontFamily: {
-				'serif': ['Playfair Display', 'serif'],
+				'display': ['Outfit', 'sans-serif'],
 				'sans': ['Inter', 'sans-serif'],
 			},
 			backgroundImage: {
